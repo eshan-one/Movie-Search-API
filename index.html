@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
     <title>Find Your Film</title>
-
+    
 </head>
 
 <header>
@@ -15,16 +15,20 @@
 </header>
 
 <div class="search-container">
-    <input type="text" id="search-input" placeholder="Enter your search here" onkeyup="findMovies()">
+    <input type="text" 
+    id="search-input"
+    placeholder="Enter your search here"
+    required
+    autocomplete="off">
     <button id="search-button">Search</button>
 </div>
 
 <body>
     <div id="movie-container">
-
+        
     </div>
-
+    
 </body>
-<script src="index.js"></script>
+ <script src="index.js"></script>
 
 </html>
